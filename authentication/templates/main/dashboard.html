@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}Dashboard | You are Logged In{% endblock title %}
+{% block body %}
+
+<div class="container m-auto flex flex-col ">
+  <h1>This is Dashboard page.</h1>
+  <a href="{% url 'password_change' %}" class="w-1/6 text-center bg-indigo-500 hover:bg-indigo-600 px-2 py-3 my-3 text-white font-bold rounded-xl">Change Your Password</a>
+</div>
+
+{% endblock body %}
